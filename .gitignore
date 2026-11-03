@@ -1,0 +1,16 @@
+**/.state/
+**/__pycache__/
+**/*.pyc
+**/node_modules/
+**/.venv/
+**/.env
+**/.env.*
+**/browser-profile/
+**/*-profile/
+**/*.sqlite
+**/*.sqlite3
+**/*.db
+**/*.log
+聊天记录/
+deployment/
+vendor/
