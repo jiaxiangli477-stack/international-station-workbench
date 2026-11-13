@@ -1,44 +1,42 @@
 ---
 name: b2b-product-visuals
-description: Configure Alibaba.com product visuals for a new company and category. Issue a blank intake template directly on unconfigured use, persist confirmed references, then route brand, main-image, detail-page, scene, copy and review work from evidence-backed company and product material.
+description: Create generic Alibaba.com B2B product main and detail images with Codex's available native image-generation/editing tool. Accept real photos, named product folders, names visible in photos, or an explicitly requested new concept. Collect facts once, identify each product, plan buyer-facing content, generate and review without bundled scripts or company/category presets.
 ---
 
-# 阿里巴巴国际站通用商品视觉
+# 通用B端商品图片｜Codex原生生图版
 
-## 首次直接给模板，不让使用者自己找文件
+## 唯一出图路径与边界
 
-无当前公司确认配置时，读取references/template-delivery.md，运行scripts/init_workspace.py --output <D/E盘独立填写目录>，直接给出模板ZIP、填写目录和说明链接，使用者填写、放资料并保存副本。读取全部材料后集中核对，用户确认摘要后由scripts/save_profile.py保存到本Skill公司专属参考。已有同主体有效配置先复用，不重复索取。
+只调用当前Codex会话实际提供的原生图像生成／编辑工具。工具可能显示为image_gen或imagegen，按当前工具说明调用，不固定模型版本或假定所有账户都可用。这里不包含Python、Node、SDK、API密钥、HTML/CSS渲染、固定行业板块、旧素材或外部生图接口。
 
-与配套上品主控共同使用时，由上品主控交模板和统一收资料；视觉分支只读取必要的同主体同版本确认资料，不再给一套重复问卷。平台固定为阿里巴巴国际站，不问平台和市场。
+用户给实物图时以真实产品图生图／编辑；明确要求新作且无实物图时可按确认描述做新概念图，必须说明不是已存在实物。工具不可用就说明阻塞，仍可整理索引和提示词；不切API、不跑旧脚本，也不能将提示词交付说成图片已生成。
 
-## 参考文件是具体工作规则，不是独立sub skill
+## 第一次：直接给填写模板，已有资料不重复收
 
-本Skill没有额外的subskills目录。原视觉包通过references按场景分流，本版保留这一结构；以下均是本Skill执行时按需读取的规则：
+读references/intake.md。首次、新公司或资料不足时，直接提供当前Skill内assets/产品资料文件夹模板.zip的真实文件链接与说明，告诉使用者解压到独立工作区、填写和放资料后保存。可用宿主文件工具复制独立副本，不运行打包脚本；不要让使用者自己找路径或编辑母版。
 
-| 当前工作 | 读取 | 输入 → 输出 |
-| --- | --- | --- |
-| 一次收资料与公司确认 | references/company-onboarding.md、template-delivery.md、company-profile.template.md | 已有材料 → 索引、集中缺口、用户确认及专属资料 |
-| 页面结构与限制 | references/category-page-intake.md、category-fields.template.json | 实际页面证据 → 类目与图片模块规则 |
-| 品牌配置 | references/brand-tokens.md | 授权Logo、已有规范、确认偏好 → 本公司视觉规则与待审方案 |
-| 主图规划 | references/main-images.md | 同SKU事实、照片与视觉规则 → 逐图计划及制作需求 |
-| 详情页规划 | references/detail-page.md | 产品与适用公司证据 → 模块、文案、图稿与页面对应关系 |
-| 场景和真实产品处理 | references/scene-swap.md | 真实／概念／参考素材与改动范围 → 制作方法及保真检查项 |
-| 文字与事实审查 | references/copy-compliance.md | 图中文字与来源 → 风险和修正项 |
-| 逐图质检 | references/visual-review.md | 实际导出图、原照片和规则 → 通过、失败、待核验项 |
-| 交接上品主控 | references/image-handoff.md | 确认成品＋当前页面模块证据 → 单SKU目录、detail-map和状态 |
+使用者也可以直接发送图片或产品库路径，不强制先填表。一次说明需要的身份／事实／素材／输出要求，读完统一反馈缺口。平台固定为阿里巴巴国际站，不问平台或市场。已知且确认的信息不重复问。
 
-这里保留方法规则，但不附旧公司Logo、配色、证书、工厂、商品照片或历史参数。用户确认资料后才把具体值放进references/companies/<公司标识>/，实际类目配置同样核实后再建。准备模板本身不是证据。
+## 可接受的输入方式
 
-## 与上品和内容子模块的协作
+- 一张或多张真实产品图：先实际查看，核对是否同款及需保留细节。
+- 产品资料文件夹：名称、子目录或清单已标产品名，按references/product-library.md建立映射。
+- 图片里有产品名称：实际读图中文字，结合文件名和资料核对；识别不清或冲突的项集中请确认，不假装已识别。
+- 用户明确要求新作：有确认的产品／外观描述就生成概念；只有风格参考时不能推断产品事实。
 
-上品主控整理的公司和SKU事实是共同输入。标题、卖点草稿可供图片组织信息参考，但未确认草稿不是产品事实；视觉方案也不能给属性增加无依据参数。两分支的图文、规格、包装和交易必须一致。
+图片库模式先建立产品索引和文件对应关系，再对选定产品制作；不能把一张产品图用于另一款。所有输入图标注角色：真实编辑对象、结构／标签补充、风格参考、其他参考。具体看图与工具使用读references/native-image-generation.md。
 
-没有事实或素材的工厂、资质、客户和评价主题不启用；真实商品使用授权实拍并保留关键结构，概念图明确标注，参考作品不当实物证明。生成和编辑使用当前真实可用的图像工具，遵守资料与费用授权。
+## 工作顺序与参考路由
 
-最终成品与原图、草稿分开存；按image-handoff.md命名并提供明确模块映射。主控的image-upload子模块检查文件清单后，还要实际核验图片内容和真实上传结果。
+1. 接收资料：references/intake.md；模板只是收集说明，不是业务证据。
+2. 识别与映射：references/product-library.md；产出产品索引、对应文件、识别来源、冲突与待确认项。
+3. B端内容和画面规划：references/b2b-planning.md；先讲买家需要判断什么，再选图文形式。不复用原公司／原类目的固定面板或布局。
+4. 统一原生生图／编辑：references/native-image-generation.md；使用真实可用工具，每个目标图明确SKU、输入角色、要保留的事实和要改变的内容。
+5. 看图复核与交付：references/review-and-delivery.md；实际核对产品身份、结构、文字、证据及清晰度后保存，不用“模型应该没改”代替检查。
+6. 公司资料复用：references/company-memory.md；用户确认后才在自己的授权环境保存专属参考。通用公开包永远不带具体主体、产品、类目、价格或素材。
 
-## 已有程序与尚缺能力
+## 最重要的B端原则
 
-scripts/init_workspace.py和save_profile.py处理模板交付及确认参考存档。scripts/render.py只能将真实照片等比例排成中性预览，不是完整主图或详情页渲染器。
+图要帮助采购者判断：商品是什么、规格是否合适、有什么真实依据、怎样选择与合作。先给出清晰产品和决策信息，少堆形容词；材质、性能、认证、定制、MOQ、交期和产能只在真实且适用时呈现。没有证据的工厂、客户、资质和评价主题不启用。
 
-brand-tokens、main-images、detail-page等是可供Agent执行的规则，原包固定模板、批量场景生成、抠图、文字锁定及自动质检程序未完整迁移。不能将新增参考文件的存在说成这些程序都已经实现。
+主图与详情页按当前产品、用户要求和实际页面限制规划，不强制固定张数或旧模块顺序。原始图可保留原名，确认的成品再按交接规范命名。生成图、概念图、看过但未核实的图都不能被说成实物事实或已经上架。
