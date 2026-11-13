@@ -1,0 +1,432 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 130,
+    "sha256": "cfa8a8ffe6d5edd74747489f5bbfd667047651a97ed195832fa2be312b1d2c43"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2876,
+    "sha256": "bec085269e079cfc4f2ec7febd84b8bd845364efbee4e2bb86580658538c94f4"
+  },
+  {
+    "path": "资料准备文件夹模板.zip",
+    "bytes": 20298,
+    "sha256": "2d0aae01dcb03939b4dea7a569e91efe21a44a58008baf2113cee189a09e475a"
+  },
+  {
+    "path": "通用Skill使用说明.html",
+    "bytes": 4350,
+    "sha256": "9b79d642103a701c6571fd77d48325e34923f77277cca557b57a2e4763b7a7ee"
+  },
+  {
+    "path": "通用上品与商品视觉Skills.zip",
+    "bytes": 104058,
+    "sha256": "297fa7defccc0cd297cee51a180ffa8702ed20d491f9c4db85ecb94e228f2d76"
+  },
+  {
+    "path": "docs/Subagent实验检查与修复报告.md",
+    "bytes": 4717,
+    "sha256": "ee0f684ba3af30c7629260d249e3ae32bb104936d19fa8cec163c08045545c35"
+  },
+  {
+    "path": "docs/主图详情图命名与交接.md",
+    "bytes": 3123,
+    "sha256": "733c22a26e47b2c99b535aadf305ea019b7056b878645a7b7eff4432b8f4ab50"
+  },
+  {
+    "path": "docs/使用说明.md",
+    "bytes": 8595,
+    "sha256": "e9c0216e97043cec329aeae5532d5227e2b53925a47ae10221555a221d3108e4"
+  },
+  {
+    "path": "docs/发布页URL与截图收集说明.md",
+    "bytes": 4749,
+    "sha256": "409bba31d7ad456fb75a81b28deff1e96ed4f0cc28f3ea2c1cfdac2ab2c663c2"
+  },
+  {
+    "path": "docs/本地实验步骤与边界.md",
+    "bytes": 3610,
+    "sha256": "9a01b11baab431902b8e3fdc9cf3c593b6f4accd9ea3c7dfafbf1c876b708b2a"
+  },
+  {
+    "path": "docs/首次使用提问与资料收集.md",
+    "bytes": 11177,
+    "sha256": "197e20b98894a2661061fbed93d27d3db9e3b14934e6f1ab713b79b684e29697"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/SKILL.md",
+    "bytes": 5387,
+    "sha256": "f0e546da2d3fb2476bafa0563a3ec8157e384d541e4f04673f4dc9ea08cee254"
+  },
+  {
+    "path": "skills/b2b-product-visuals/SKILL.md",
+    "bytes": 3701,
+    "sha256": "1061cd566abede3ba8601a4fc8f198db67eec6a6743af82fd2d390ff4b083d4c"
+  },
+  {
+    "path": "skills/b2b-product-visuals/references/category-fields.template.json",
+    "bytes": 867,
+    "sha256": "7ebbe0fc8b1d764feddbbf2e67a5b19e0ce9d520e727346f2063735e76b51f6b"
+  },
+  {
+    "path": "skills/b2b-product-visuals/references/category-page-intake.md",
+    "bytes": 4749,
+    "sha256": "409bba31d7ad456fb75a81b28deff1e96ed4f0cc28f3ea2c1cfdac2ab2c663c2"
+  },
+  {
+    "path": "skills/b2b-product-visuals/references/company-onboarding.md",
+    "bytes": 11177,
+    "sha256": "197e20b98894a2661061fbed93d27d3db9e3b14934e6f1ab713b79b684e29697"
+  },
+  {
+    "path": "skills/b2b-product-visuals/references/company-profile.template.md",
+    "bytes": 661,
+    "sha256": "082f8600f1fc2247c5e2ef9c7f5f887480bd46566f346c9eafb3cba851d242c7"
+  },
+  {
+    "path": "skills/b2b-product-visuals/references/image-handoff.md",
+    "bytes": 3123,
+    "sha256": "733c22a26e47b2c99b535aadf305ea019b7056b878645a7b7eff4432b8f4ab50"
+  },
+  {
+    "path": "skills/b2b-product-visuals/scripts/render.py",
+    "bytes": 1333,
+    "sha256": "9a44ae5491f1a32cbfe667d17a0f23d26d8f6cea63bc48dcdb646b25733dfd79"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/00-使用说明.html",
+    "bytes": 4034,
+    "sha256": "5a81a7fe5a282922eaf729f4af54fc3e27cc4b7c2b6697b2eef5426c21c77ca1"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/00-先看这里.txt",
+    "bytes": 2249,
+    "sha256": "953379b0cd4b94c4f9cd76ac2d75f754f3532fd3072ab37583d5db6676565796"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/00-必备与选填说明.txt",
+    "bytes": 1393,
+    "sha256": "7301cdc6061d2d0b6168c977bd9538fe39c2f5d7f62110cac290b572e19b0c08"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/00-资料状态与待补说明.txt",
+    "bytes": 947,
+    "sha256": "ede2627477937ff95c2889075fc50349c1193c107dbcb568a9432d1061a82b4f"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/01-公司介绍与业务能力/放什么-说明.txt",
+    "bytes": 640,
+    "sha256": "e6e56f5e4bfed2c29b85d47ea9fd48faccf3f1859603a51a25309421a4c11999"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/02-类目发布页/放什么-说明.txt",
+    "bytes": 766,
+    "sha256": "4d26a977828a24687abadea1a3e4d8e9d9b12a02191b126b475f11ef93aaf9b9"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/03-产品资料/放什么-说明.txt",
+    "bytes": 332,
+    "sha256": "357fc6c7ffb9e53bdccfd12626fe8425776e4fd4524fd2a459923ae575558ec3"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/04-品牌与视觉规范/放什么-说明.txt",
+    "bytes": 491,
+    "sha256": "95af58c9e8998d587df2e8998faf208eaa9ca6ce2a1f41fa804bc14b916feb0d"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/05-按需展示的真实素材/放什么-说明.txt",
+    "bytes": 325,
+    "sha256": "c24693b1ab715a1eb997de9b4cd988e652db0376d08d0a1ef40770c3da19fb13"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/06-FAQ与风格参考/放什么-说明.txt",
+    "bytes": 457,
+    "sha256": "0d50744119ffb3c1529273c0c02e2f7725ac0eb37cc9f2664e4927e68e5f27e3"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/07-标题关键词与文案参考-选填/放什么-说明.txt",
+    "bytes": 843,
+    "sha256": "f6edba42cf554c802d24eda9ee9398cc7267f441b21c09bc2fc85c19cb410fd6"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/99-其他现成资料/放什么-说明.txt",
+    "bytes": 312,
+    "sha256": "85898e14a7052ba117d64a8460411aae565ec270f13ec3cb22c04c6cf7ed7e46"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/05-按需展示的真实素材/01-资质与质量证明/放什么-说明.txt",
+    "bytes": 425,
+    "sha256": "1cc219bbb88eae1f20c37f09409899fdf01b45c3d0a515e37582f6c45120e5cf"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/05-按需展示的真实素材/02-公司工厂团队与流程/放什么-说明.txt",
+    "bytes": 356,
+    "sha256": "8b3afde05fbda4dfb65a38be3855ceb14e6b1c35fc860c5b5c55af201b29c8f2"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/05-按需展示的真实素材/03-案例客户与评价/放什么-说明.txt",
+    "bytes": 258,
+    "sha256": "f68f5c72c3d9a5c885f3c741cdc218087dea446520e3ccd8e592877d152a66e8"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/03-产品资料/产品001-请改名/产品说明与对应关系.txt",
+    "bytes": 454,
+    "sha256": "55a02a8c2a3d05ee12f4e531b383fcb58d2491d45bb8c28f359d31dacb7e98d3"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/03-产品资料/产品001-请改名/01-规格与说明书/放什么-说明.txt",
+    "bytes": 416,
+    "sha256": "0536cc9f33907fb01ac01ac9b50e739824626be8e8df554f0d8160e94418a5ce"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/03-产品资料/产品001-请改名/02-产品实拍与标签/放什么-说明.txt",
+    "bytes": 488,
+    "sha256": "05afcfb2864de6077cfc9efe84c10f2e1b9e5fb0bb348fb1fd5f0def1e11e821"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/03-产品资料/产品001-请改名/03-报价包装与交期/放什么-说明.txt",
+    "bytes": 455,
+    "sha256": "b50757d8cf3bf5b41ca93bf6a1d9077f6dabb27df4ab06eef16ab4b91f82fcd2"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/03-产品资料/产品001-请改名/04-成品图片-确认后放入/detail-map.template.json",
+    "bytes": 84,
+    "sha256": "650d712c36861782ca4be8f3bbfb0cec1982fc5eb00555e19121be9c56838fa0"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/03-产品资料/产品001-请改名/04-成品图片-确认后放入/放什么-说明.txt",
+    "bytes": 777,
+    "sha256": "9bc36d9f4c551867ccf4754b1d6ad8a0fafdaa3edcdeb5c0d3dc5eb7cfb48458"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/03-产品资料/产品001-请改名/04-成品图片-确认后放入/主图/放什么-说明.txt",
+    "bytes": 238,
+    "sha256": "78acd1ff7d1c896d4682e1143569e217a7531903c59c5bfdb07d3dbcb2588c61"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/03-产品资料/产品001-请改名/04-成品图片-确认后放入/详情页/放什么-说明.txt",
+    "bytes": 283,
+    "sha256": "e16d7c19256a2681d3bb9169af4499df2196a69b145f3d8dfb48d537025f60c0"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/02-类目发布页/类目A-请改名/链接与类目说明.txt",
+    "bytes": 534,
+    "sha256": "54431259775558123624bec139a00d7168a0061cd73f402e4a63079bfb06a690"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/02-类目发布页/类目A-请改名/01-属性区截图/放什么-说明.txt",
+    "bytes": 501,
+    "sha256": "71b83abf2b7612faac4e2e3ca034ef4189b613978970a3793a9278dda2feb864"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/02-类目发布页/类目A-请改名/02-下拉与搜索结果/放什么-说明.txt",
+    "bytes": 532,
+    "sha256": "a56d07978c70aa5d4a4453450e1a5a985c9aeb89d4da8e82a1fb7060d1b1a407"
+  },
+  {
+    "path": "skills/b2b-product-visuals/assets/intake-folder-template/02-类目发布页/类目A-请改名/03-交易物流与详情区/放什么-说明.txt",
+    "bytes": 372,
+    "sha256": "361543c9ce3f85e10588a9f3da18aaa7584b71803c0ab62b90ee1b1f859e03be"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/references/category-fields.template.json",
+    "bytes": 867,
+    "sha256": "7ebbe0fc8b1d764feddbbf2e67a5b19e0ce9d520e727346f2063735e76b51f6b"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/references/category-page-intake.md",
+    "bytes": 4749,
+    "sha256": "409bba31d7ad456fb75a81b28deff1e96ed4f0cc28f3ea2c1cfdac2ab2c663c2"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/references/company-onboarding.md",
+    "bytes": 11177,
+    "sha256": "197e20b98894a2661061fbed93d27d3db9e3b14934e6f1ab713b79b684e29697"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/references/company-profile.template.md",
+    "bytes": 661,
+    "sha256": "082f8600f1fc2247c5e2ef9c7f5f887480bd46566f346c9eafb3cba851d242c7"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/references/image-handoff.md",
+    "bytes": 3123,
+    "sha256": "733c22a26e47b2c99b535aadf305ea019b7056b878645a7b7eff4432b8f4ab50"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/references/input.example.json",
+    "bytes": 494,
+    "sha256": "3f7b4213de3e0a77eae4ac40dde6dd9a0db718a6c882a483ee9264a986326bfc"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/references/local-experiment.md",
+    "bytes": 3610,
+    "sha256": "9a01b11baab431902b8e3fdc9cf3c593b6f4accd9ea3c7dfafbf1c876b708b2a"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/references/product-evidence.md",
+    "bytes": 721,
+    "sha256": "c75d92371832c0cdc09a78ee914111a79725b700464909bf7be8faa9ed09edbf"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/scripts/build_plan.py",
+    "bytes": 9475,
+    "sha256": "27caee7d69a418d1de062a0529d8df765dfda0dfedbde230e33b93ab2b948f7d"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/scripts/image_inventory.py",
+    "bytes": 5612,
+    "sha256": "c2e10406b8fbd576721b2a9da72715446f7696dd753bdb8fa970faffb4a29f12"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/scripts/prepare.py",
+    "bytes": 5097,
+    "sha256": "0833eb51e2f3dff0457a237c52e011d62ce17356245fb40655a2950e835008d8"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/subskills/selling-points/SKILL.md",
+    "bytes": 1377,
+    "sha256": "c10c22283ba2f6e5b3a860fb9f91da0e034041734415019ff1be79784f5007a1"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/subskills/title-scout/SKILL.md",
+    "bytes": 1648,
+    "sha256": "e3ec22d236e69031780a673fe28d01162b69c7d1b9ca7b47a971089ba4db2fec"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/00-使用说明.html",
+    "bytes": 4034,
+    "sha256": "5a81a7fe5a282922eaf729f4af54fc3e27cc4b7c2b6697b2eef5426c21c77ca1"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/00-先看这里.txt",
+    "bytes": 2249,
+    "sha256": "953379b0cd4b94c4f9cd76ac2d75f754f3532fd3072ab37583d5db6676565796"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/00-必备与选填说明.txt",
+    "bytes": 1393,
+    "sha256": "7301cdc6061d2d0b6168c977bd9538fe39c2f5d7f62110cac290b572e19b0c08"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/00-资料状态与待补说明.txt",
+    "bytes": 947,
+    "sha256": "ede2627477937ff95c2889075fc50349c1193c107dbcb568a9432d1061a82b4f"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/01-公司介绍与业务能力/放什么-说明.txt",
+    "bytes": 640,
+    "sha256": "e6e56f5e4bfed2c29b85d47ea9fd48faccf3f1859603a51a25309421a4c11999"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/02-类目发布页/放什么-说明.txt",
+    "bytes": 766,
+    "sha256": "4d26a977828a24687abadea1a3e4d8e9d9b12a02191b126b475f11ef93aaf9b9"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/03-产品资料/放什么-说明.txt",
+    "bytes": 332,
+    "sha256": "357fc6c7ffb9e53bdccfd12626fe8425776e4fd4524fd2a459923ae575558ec3"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/04-品牌与视觉规范/放什么-说明.txt",
+    "bytes": 491,
+    "sha256": "95af58c9e8998d587df2e8998faf208eaa9ca6ce2a1f41fa804bc14b916feb0d"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/05-按需展示的真实素材/放什么-说明.txt",
+    "bytes": 325,
+    "sha256": "c24693b1ab715a1eb997de9b4cd988e652db0376d08d0a1ef40770c3da19fb13"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/06-FAQ与风格参考/放什么-说明.txt",
+    "bytes": 457,
+    "sha256": "0d50744119ffb3c1529273c0c02e2f7725ac0eb37cc9f2664e4927e68e5f27e3"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/07-标题关键词与文案参考-选填/放什么-说明.txt",
+    "bytes": 843,
+    "sha256": "f6edba42cf554c802d24eda9ee9398cc7267f441b21c09bc2fc85c19cb410fd6"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/99-其他现成资料/放什么-说明.txt",
+    "bytes": 312,
+    "sha256": "85898e14a7052ba117d64a8460411aae565ec270f13ec3cb22c04c6cf7ed7e46"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/05-按需展示的真实素材/01-资质与质量证明/放什么-说明.txt",
+    "bytes": 425,
+    "sha256": "1cc219bbb88eae1f20c37f09409899fdf01b45c3d0a515e37582f6c45120e5cf"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/05-按需展示的真实素材/02-公司工厂团队与流程/放什么-说明.txt",
+    "bytes": 356,
+    "sha256": "8b3afde05fbda4dfb65a38be3855ceb14e6b1c35fc860c5b5c55af201b29c8f2"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/05-按需展示的真实素材/03-案例客户与评价/放什么-说明.txt",
+    "bytes": 258,
+    "sha256": "f68f5c72c3d9a5c885f3c741cdc218087dea446520e3ccd8e592877d152a66e8"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/03-产品资料/产品001-请改名/产品说明与对应关系.txt",
+    "bytes": 454,
+    "sha256": "55a02a8c2a3d05ee12f4e531b383fcb58d2491d45bb8c28f359d31dacb7e98d3"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/03-产品资料/产品001-请改名/01-规格与说明书/放什么-说明.txt",
+    "bytes": 416,
+    "sha256": "0536cc9f33907fb01ac01ac9b50e739824626be8e8df554f0d8160e94418a5ce"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/03-产品资料/产品001-请改名/02-产品实拍与标签/放什么-说明.txt",
+    "bytes": 488,
+    "sha256": "05afcfb2864de6077cfc9efe84c10f2e1b9e5fb0bb348fb1fd5f0def1e11e821"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/03-产品资料/产品001-请改名/03-报价包装与交期/放什么-说明.txt",
+    "bytes": 455,
+    "sha256": "b50757d8cf3bf5b41ca93bf6a1d9077f6dabb27df4ab06eef16ab4b91f82fcd2"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/03-产品资料/产品001-请改名/04-成品图片-确认后放入/detail-map.template.json",
+    "bytes": 84,
+    "sha256": "650d712c36861782ca4be8f3bbfb0cec1982fc5eb00555e19121be9c56838fa0"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/03-产品资料/产品001-请改名/04-成品图片-确认后放入/放什么-说明.txt",
+    "bytes": 777,
+    "sha256": "9bc36d9f4c551867ccf4754b1d6ad8a0fafdaa3edcdeb5c0d3dc5eb7cfb48458"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/03-产品资料/产品001-请改名/04-成品图片-确认后放入/主图/放什么-说明.txt",
+    "bytes": 238,
+    "sha256": "78acd1ff7d1c896d4682e1143569e217a7531903c59c5bfdb07d3dbcb2588c61"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/03-产品资料/产品001-请改名/04-成品图片-确认后放入/详情页/放什么-说明.txt",
+    "bytes": 283,
+    "sha256": "e16d7c19256a2681d3bb9169af4499df2196a69b145f3d8dfb48d537025f60c0"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/02-类目发布页/类目A-请改名/链接与类目说明.txt",
+    "bytes": 534,
+    "sha256": "54431259775558123624bec139a00d7168a0061cd73f402e4a63079bfb06a690"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/02-类目发布页/类目A-请改名/01-属性区截图/放什么-说明.txt",
+    "bytes": 501,
+    "sha256": "71b83abf2b7612faac4e2e3ca034ef4189b613978970a3793a9278dda2feb864"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/02-类目发布页/类目A-请改名/02-下拉与搜索结果/放什么-说明.txt",
+    "bytes": 532,
+    "sha256": "a56d07978c70aa5d4a4453450e1a5a985c9aeb89d4da8e82a1fb7060d1b1a407"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/assets/intake-folder-template/02-类目发布页/类目A-请改名/03-交易物流与详情区/放什么-说明.txt",
+    "bytes": 372,
+    "sha256": "361543c9ce3f85e10588a9f3da18aaa7584b71803c0ab62b90ee1b1f859e03be"
+  }
+]

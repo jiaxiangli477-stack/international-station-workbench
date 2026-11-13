@@ -1,0 +1,8 @@
+**/references/companies/
+**/references/categories/
+**/__pycache__/
+.env
+.env.*
+**/browser-profile/
+**/output/
+**/outputs/

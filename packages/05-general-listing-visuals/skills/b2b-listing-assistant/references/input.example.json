@@ -1,0 +1,29 @@
+{
+  "company_profile_confirmed": false,
+  "company": {
+    "name": {
+      "value": "",
+      "status": "missing",
+      "source": ""
+    },
+    "role": {
+      "value": "",
+      "status": "missing",
+      "source": ""
+    }
+  },
+  "product": {
+    "name": {
+      "value": "",
+      "status": "missing",
+      "source": "",
+      "product_id": ""
+    }
+  },
+  "pricing": {},
+  "platform": {
+    "name": "Alibaba.com",
+    "category": ""
+  },
+  "product_id": ""
+}
