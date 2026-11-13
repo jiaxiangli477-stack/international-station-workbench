@@ -23,3 +23,10 @@ Windows / Python 3.11+。在 workbench 目录运行 `python -B serve.py`，访�
 仅上传解压后的本目录。建议先使用私有仓库。未包含：聊天归档、.state、数据库、API密钥、Cookie、浏览器profile、客户报告、截图预览、旧工程/迁移备份、审查沙箱、vendor、便携运行环境和node_modules。
 
 程序化凭据模式检查未发现明显密钥；这不等于正式安全审计。本仓库仅保存源码，真实业务数据与登录资料留在本地环境。
+
+## 项目导航
+
+- [国际站工具包（公开分发文件）](packages/)
+- [GitHub 仓库分类导航](REPOSITORIES.md)
+
+工具包按用户要求单独存放于 packages/；上文对 workbench/ 源码备份的范围说明仍适用于该原有目录。
