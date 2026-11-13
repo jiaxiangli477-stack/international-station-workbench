@@ -1,0 +1,29 @@
+{
+  "product_id": "",
+  "pricing": {
+    "moq": {
+      "value": null,
+      "status": "missing",
+      "source": "",
+      "product_id": ""
+    },
+    "currency": {
+      "value": null,
+      "status": "missing",
+      "source": "",
+      "product_id": ""
+    },
+    "unit": {
+      "value": null,
+      "status": "missing",
+      "source": "",
+      "product_id": ""
+    },
+    "tiers": {
+      "value": [],
+      "status": "missing",
+      "source": "",
+      "product_id": ""
+    }
+  }
+}

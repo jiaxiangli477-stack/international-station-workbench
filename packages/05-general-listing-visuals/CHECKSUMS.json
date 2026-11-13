@@ -11,8 +11,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 3145,
-    "sha256": "59b3e5c6d9023b6a75b71d3ab434a2483bf08c910b910bd11eb39e08a497313a"
+    "bytes": 2669,
+    "sha256": "8a05b1122faea33d9a381deb95a9d0e2570e92cc77c9354236edc53ef5cee642"
   },
   {
     "path": "资料准备文件夹模板.zip",
@@ -21,23 +21,23 @@
   },
   {
     "path": "通用Skill使用说明.html",
-    "bytes": 6698,
-    "sha256": "f8117d551799289183931e7283dc650c8b889cd045a3ba4681e387feea112029"
+    "bytes": 16574,
+    "sha256": "6def02538427b2f2df7d4801137ea73f3e1de00b3e2796de1fef2da589381544"
   },
   {
     "path": "通用Skill思路与结构说明.html",
-    "bytes": 6698,
-    "sha256": "f8117d551799289183931e7283dc650c8b889cd045a3ba4681e387feea112029"
+    "bytes": 16574,
+    "sha256": "6def02538427b2f2df7d4801137ea73f3e1de00b3e2796de1fef2da589381544"
   },
   {
     "path": "通用上品与商品视觉Skills.zip",
-    "bytes": 104560,
-    "sha256": "c44e3a71eeee045118984819e946f73efe4bfbd6b405d4b86baae603100e0cdd"
+    "bytes": 132964,
+    "sha256": "cd5bbcdec7ff37ced61fd8cf032c55a322c11be0bdbd78149aa42ff2516eb32c"
   },
   {
     "path": "docs/Subagent实验检查与修复报告.md",
-    "bytes": 1047,
-    "sha256": "e6882c3448f842747c6f2030482144e443dd8651be8b93c6290484cb89e89ae9"
+    "bytes": 1371,
+    "sha256": "e1bb7ee96229f12586fb7ff9a48d2ad9d1af43191b3b24392da58b8276f069f5"
   },
   {
     "path": "docs/主图详情图命名与交接.md",
@@ -46,8 +46,8 @@
   },
   {
     "path": "docs/使用说明.md",
-    "bytes": 6893,
-    "sha256": "7f688c18dc3a7ad958674f2412afbbb970453e352a930ba07f995fce629449ae"
+    "bytes": 11383,
+    "sha256": "99c250fc193410a62fc36db32b9b5a1c897c21e87d2ba220fd4c4dd68b9f7c21"
   },
   {
     "path": "docs/发布页URL与截图收集说明.md",
@@ -56,8 +56,8 @@
   },
   {
     "path": "docs/思路与结构说明.md",
-    "bytes": 6893,
-    "sha256": "7f688c18dc3a7ad958674f2412afbbb970453e352a930ba07f995fce629449ae"
+    "bytes": 11383,
+    "sha256": "99c250fc193410a62fc36db32b9b5a1c897c21e87d2ba220fd4c4dd68b9f7c21"
   },
   {
     "path": "docs/本地实验步骤与边界.md",
@@ -65,19 +65,29 @@
     "sha256": "a7dc3f4eab8488b6fe21895e0c6d55f0a0c16e1a03d61f71f6f7566dddaa898e"
   },
   {
+    "path": "docs/模板交付与确认存档.md",
+    "bytes": 843,
+    "sha256": "1e0791c1903520a4809e4ac9bae9d9a923d84b48000aea00c4e054ab27f439c2"
+  },
+  {
     "path": "docs/首次使用提问与资料收集.md",
-    "bytes": 11072,
-    "sha256": "2ebb7a7a2f22976f859a68843a4a042790fda9aeae8f6a26c1d1bb6f6d8d8d80"
+    "bytes": 11160,
+    "sha256": "e664d370512115675f908987a7dad0746b7c0c9948c71968c3a6b9bb8562b786"
   },
   {
     "path": "skills/b2b-listing-assistant/SKILL.md",
-    "bytes": 5344,
-    "sha256": "9afea1b11e94432cf2bf70c61a7150c325a79c0f4126daf6be775b01d83ff5b5"
+    "bytes": 5885,
+    "sha256": "cacfba215a320b8a4977ce8af643b4f27e30a7da7d72467b4ff2b7671086776c"
   },
   {
     "path": "skills/b2b-product-visuals/SKILL.md",
-    "bytes": 3669,
-    "sha256": "d0d8e3cfb15a876335ff243dbf3916b525566deaeec1999cf3e44eb3b219b376"
+    "bytes": 4147,
+    "sha256": "59aae41321072864b592fc48b9a6a16f52e49c891db741dff033c20d561d211d"
+  },
+  {
+    "path": "skills/b2b-product-visuals/references/brand-tokens.md",
+    "bytes": 1014,
+    "sha256": "2c967afba5a69f0e3bc659a9b00d7669e665a19570e5e1164f74616718c705d2"
   },
   {
     "path": "skills/b2b-product-visuals/references/category-fields.template.json",
@@ -91,8 +101,8 @@
   },
   {
     "path": "skills/b2b-product-visuals/references/company-onboarding.md",
-    "bytes": 11072,
-    "sha256": "2ebb7a7a2f22976f859a68843a4a042790fda9aeae8f6a26c1d1bb6f6d8d8d80"
+    "bytes": 11160,
+    "sha256": "e664d370512115675f908987a7dad0746b7c0c9948c71968c3a6b9bb8562b786"
   },
   {
     "path": "skills/b2b-product-visuals/references/company-profile.template.md",
@@ -100,14 +110,54 @@
     "sha256": "7c096cc6da3e1c2258d6b1c8857408a142bf188d3878be047a6f76ce0ae572f0"
   },
   {
+    "path": "skills/b2b-product-visuals/references/copy-compliance.md",
+    "bytes": 976,
+    "sha256": "64e5bf1186f3d1d16d7567372d6231f8b0bc466d02bd635c35cb1a5eec71869f"
+  },
+  {
+    "path": "skills/b2b-product-visuals/references/detail-page.md",
+    "bytes": 1179,
+    "sha256": "cfcd889358d9c9a4e541cc11d688e6177aa653c41d43630bb16abd138cb0b9c5"
+  },
+  {
     "path": "skills/b2b-product-visuals/references/image-handoff.md",
     "bytes": 3083,
     "sha256": "636e0b5d5357465902eaeac7137868a1b327a2a4ef563db5a1313a3c07387abe"
   },
   {
+    "path": "skills/b2b-product-visuals/references/main-images.md",
+    "bytes": 1089,
+    "sha256": "8d8d735aa2fe74429b758bdb92ab56cc5885ed69de25e264ef77f665a5c3c692"
+  },
+  {
+    "path": "skills/b2b-product-visuals/references/scene-swap.md",
+    "bytes": 992,
+    "sha256": "e14a7151e43a8ac573056420f86a8261d8ae1228178356f013f994c2f3d73c9c"
+  },
+  {
+    "path": "skills/b2b-product-visuals/references/template-delivery.md",
+    "bytes": 2479,
+    "sha256": "c63593d34aca7689e25642fe3306d1f2d10d15d17c9b82946b4f91a5621581c3"
+  },
+  {
+    "path": "skills/b2b-product-visuals/references/visual-review.md",
+    "bytes": 963,
+    "sha256": "1590bbdde1bc2df46d635a243649fc3a27738fd95ea38d25fac1c9174d7263c6"
+  },
+  {
+    "path": "skills/b2b-product-visuals/scripts/init_workspace.py",
+    "bytes": 1698,
+    "sha256": "f1ce210b676c1262cfdeedb0fe25475c4bf65a521cb1cd0887939c379fce458f"
+  },
+  {
     "path": "skills/b2b-product-visuals/scripts/render.py",
     "bytes": 1308,
     "sha256": "beba4cf7c4b6ab0096c3f4e42f28f5185e1dab54c4166ccc6d89383ae892d3db"
+  },
+  {
+    "path": "skills/b2b-product-visuals/scripts/save_profile.py",
+    "bytes": 3221,
+    "sha256": "c30147293dd64adaf5b802dd530f5b848edfce47b04101b0a3cf392d1e8d560f"
   },
   {
     "path": "skills/b2b-product-visuals/assets/intake-folder-template/00-使用说明.html",
@@ -256,8 +306,8 @@
   },
   {
     "path": "skills/b2b-listing-assistant/references/company-onboarding.md",
-    "bytes": 11072,
-    "sha256": "2ebb7a7a2f22976f859a68843a4a042790fda9aeae8f6a26c1d1bb6f6d8d8d80"
+    "bytes": 11160,
+    "sha256": "e664d370512115675f908987a7dad0746b7c0c9948c71968c3a6b9bb8562b786"
   },
   {
     "path": "skills/b2b-listing-assistant/references/company-profile.template.md",
@@ -265,9 +315,19 @@
     "sha256": "7c096cc6da3e1c2258d6b1c8857408a142bf188d3878be047a6f76ce0ae572f0"
   },
   {
+    "path": "skills/b2b-listing-assistant/references/compliance-review.md",
+    "bytes": 1266,
+    "sha256": "6b1323f9734c5d3a3f94d28147c12f9094cec318f1f36a610c63f55e58f69ef5"
+  },
+  {
     "path": "skills/b2b-listing-assistant/references/image-handoff.md",
     "bytes": 3083,
     "sha256": "636e0b5d5357465902eaeac7137868a1b327a2a4ef563db5a1313a3c07387abe"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/references/input-schema.md",
+    "bytes": 1957,
+    "sha256": "516138efa5a10cc192fadc07e705ac42f7c37f1c98ee2f71205cb619b3e0395b"
   },
   {
     "path": "skills/b2b-listing-assistant/references/input.example.json",
@@ -285,6 +345,11 @@
     "sha256": "eb5f7e2ce302a53c6f29493b465970d23a9710426beb870044ef6908302b8ab0"
   },
   {
+    "path": "skills/b2b-listing-assistant/references/template-delivery.md",
+    "bytes": 2479,
+    "sha256": "c63593d34aca7689e25642fe3306d1f2d10d15d17c9b82946b4f91a5621581c3"
+  },
+  {
     "path": "skills/b2b-listing-assistant/scripts/build_plan.py",
     "bytes": 9343,
     "sha256": "be569e5f1fcb237674f8c5b54169d6324b186fe0d3693df9ebe807bdeea4e0e1"
@@ -295,19 +360,69 @@
     "sha256": "f6e0ded76c7903644ed37aa44f3e5a3ecb5c280cc570bdd4c3b8f2b5856ef330"
   },
   {
+    "path": "skills/b2b-listing-assistant/scripts/init_workspace.py",
+    "bytes": 1698,
+    "sha256": "f1ce210b676c1262cfdeedb0fe25475c4bf65a521cb1cd0887939c379fce458f"
+  },
+  {
     "path": "skills/b2b-listing-assistant/scripts/prepare.py",
     "bytes": 5012,
     "sha256": "1e69fe7dbf3b37f37a1563e2f36a42db7d415af582d58f27b093a99133df9cce"
   },
   {
+    "path": "skills/b2b-listing-assistant/scripts/save_profile.py",
+    "bytes": 3221,
+    "sha256": "c30147293dd64adaf5b802dd530f5b848edfce47b04101b0a3cf392d1e8d560f"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/subskills/image-upload/SKILL.md",
+    "bytes": 1080,
+    "sha256": "db02e712e074af6df6e0cb7f9effffab1423909e04ab7198930b2307745e8620"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/subskills/price-filler/SKILL.md",
+    "bytes": 1300,
+    "sha256": "3d25d485759731d4788afb08b91aaa50f4f1f374b957ba3799248c96ad35b59d"
+  },
+  {
     "path": "skills/b2b-listing-assistant/subskills/selling-points/SKILL.md",
-    "bytes": 1363,
-    "sha256": "01c3a37f3a03261758209c842d2d0d21bcc340013e86a532489c9003424d96d0"
+    "bytes": 1482,
+    "sha256": "970ddd3e4706fd721254ddd161c99c13f70c819fb1e6450d3463dc11510c30cd"
   },
   {
     "path": "skills/b2b-listing-assistant/subskills/title-scout/SKILL.md",
-    "bytes": 1632,
-    "sha256": "e71893a82530d31dba911cb23f3b7d29fff0853f69a4216af17a0bbbaf41b08b"
+    "bytes": 1746,
+    "sha256": "058f90be871eafa884909a7b5cb927ca5444f236ebdaed9cd94662c92727618f"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/subskills/title-scout/references/title-rules.md",
+    "bytes": 1069,
+    "sha256": "124d08fd6539bd2826d0b3cdbda9ff5d418d7e64a72c21d83cfff8dd17011f6f"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/subskills/selling-points/references/evidence-to-copy.md",
+    "bytes": 1046,
+    "sha256": "1f573a5e03e22905c6fc913e9ba93ee97067cf87ca7b16c509821195ea6be63f"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/subskills/price-filler/references/pricing-rules.md",
+    "bytes": 1038,
+    "sha256": "4531344b3720ce10043413f64c881b8f4bb9ae2b8130e441a0011ed1276aec2e"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/subskills/price-filler/references/quote-input.template.json",
+    "bytes": 492,
+    "sha256": "95ac6f30e8341c8eb3be95de48cc003b1ff4bf090174fd395e938482778bfb99"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/subskills/price-filler/scripts/prepare_pricing.py",
+    "bytes": 4149,
+    "sha256": "e9a3d14d9f818439d5b9962a1d8872f47a3cdac4ea0843dbcd1d178e75e11f7a"
+  },
+  {
+    "path": "skills/b2b-listing-assistant/subskills/image-upload/references/upload-gates.md",
+    "bytes": 885,
+    "sha256": "d40f3892ce67012482dd2e132836996f2b94af3188f45e4d1dba851dd9e23231"
   },
   {
     "path": "skills/b2b-listing-assistant/assets/intake-folder-template/00-使用说明.html",

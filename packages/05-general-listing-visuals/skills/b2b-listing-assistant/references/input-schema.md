@@ -1,0 +1,13 @@
+# 输入输出契约：主控与子模块共用同一份资料
+
+主控把原文件实际读取后组织成内部对象，使用者不用填JSON。输入root product_id是当前SKU；company、product、pricing中的项用value/status/source记录，product及pricing每项还必须绑定相同product_id。状态只有confirmed/inferred/missing/blocked，存在冲突另标conflict。来源是可追溯记录，不是证明材料真实性的机器认证。
+
+category_schema来自真实发布页，按category-fields.template.json记录URL、类目标识／路径、source、observed_at、coverage和fields。每个字段要有唯一key、label、control_type和布尔required。选项必须有options_evidence，自定义机制也要有对应证据；条件字段明确active与condition_evidence。截图能证明页面内容，但不能证明自动化选择器可运行。
+
+attributes是页面字段key到同SKU确认事实的映射。公司通用事实用于形成文案时保留其来源；不能把公司资质自动当成产品资质。自定义属性的名称、数目和次序必须针对当前页面规划，不沿用旧行业固定十项的内容。
+
+标题子模块输出候选及来源和风险；卖点输出逐条草稿与证据；价格子模块输出确认报价计划和疑点；图片交接输出文件、SKU、顺序、模块与复核状态。所有候选均先交用户复核，不能被下游默默转为confirmed。
+
+prepare.py输出只供基础复核，不是build_plan.py的直接输入；build_plan.py读取完整对象。价格的pricing结构也不能直接视为页面已填，主控需将其映射到当前真实交易字段。具体本地命令和支持限制见local-experiment.md。
+
+所有结果区分：资料已读、候选已生成、用户已确认、本地计划已过、页面已填写、已上传、已保存和已发布。只记录实测发生的状态，错误与跳过项不能被总控汇成“全部完成”。
