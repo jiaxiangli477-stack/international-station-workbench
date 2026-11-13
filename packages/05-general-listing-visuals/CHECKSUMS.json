@@ -11,8 +11,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 2838,
-    "sha256": "0d714ad60f64a5e1b5da2cc981d77784e30d4378817ad4682dad1e161f7f1222"
+    "bytes": 3145,
+    "sha256": "59b3e5c6d9023b6a75b71d3ab434a2483bf08c910b910bd11eb39e08a497313a"
   },
   {
     "path": "资料准备文件夹模板.zip",
@@ -21,18 +21,23 @@
   },
   {
     "path": "通用Skill使用说明.html",
-    "bytes": 4350,
-    "sha256": "9b79d642103a701c6571fd77d48325e34923f77277cca557b57a2e4763b7a7ee"
+    "bytes": 6698,
+    "sha256": "f8117d551799289183931e7283dc650c8b889cd045a3ba4681e387feea112029"
+  },
+  {
+    "path": "通用Skill思路与结构说明.html",
+    "bytes": 6698,
+    "sha256": "f8117d551799289183931e7283dc650c8b889cd045a3ba4681e387feea112029"
   },
   {
     "path": "通用上品与商品视觉Skills.zip",
-    "bytes": 104058,
-    "sha256": "297fa7defccc0cd297cee51a180ffa8702ed20d491f9c4db85ecb94e228f2d76"
+    "bytes": 104560,
+    "sha256": "c44e3a71eeee045118984819e946f73efe4bfbd6b405d4b86baae603100e0cdd"
   },
   {
     "path": "docs/Subagent实验检查与修复报告.md",
-    "bytes": 4663,
-    "sha256": "8499da875be95e2e56da2a27ee953795c8a0557fa0e9c1b94cfd85ca74907d38"
+    "bytes": 1047,
+    "sha256": "e6882c3448f842747c6f2030482144e443dd8651be8b93c6290484cb89e89ae9"
   },
   {
     "path": "docs/主图详情图命名与交接.md",
@@ -41,13 +46,18 @@
   },
   {
     "path": "docs/使用说明.md",
-    "bytes": 8472,
-    "sha256": "a429a3d4774bb93a1ca105bb866161792c50edbac699fdfca25ca9b1963a2c6c"
+    "bytes": 6893,
+    "sha256": "7f688c18dc3a7ad958674f2412afbbb970453e352a930ba07f995fce629449ae"
   },
   {
     "path": "docs/发布页URL与截图收集说明.md",
     "bytes": 4706,
     "sha256": "15bf08e55efa2e4723cf23ac69a69ddf5676ce7bb5f9dc8fff70b718987372d9"
+  },
+  {
+    "path": "docs/思路与结构说明.md",
+    "bytes": 6893,
+    "sha256": "7f688c18dc3a7ad958674f2412afbbb970453e352a930ba07f995fce629449ae"
   },
   {
     "path": "docs/本地实验步骤与边界.md",
